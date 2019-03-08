@@ -1,0 +1,17 @@
+span{
+    background:olive;
+    width:100px;
+    height:100px;  
+    /* padding:100px;   */    
+}
+div{
+   background: gold;
+ 
+   width:100px;
+  border-style:solid; 
+  
+}
+
+.dflex{
+    display:flex;
+}

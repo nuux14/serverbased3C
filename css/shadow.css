@@ -1,0 +1,14 @@
+div.fixedWidth{
+    width:450px;
+    background:rgb(195, 204, 177);
+    padding:10px;
+    margin:10px;
+    box-shadow:-3px -3px 10px olive, 3px 3px 5px red;
+    text-shadow:1px 1px 2px rgba(255,0,0,0.2);
+}
+div.fluidWidth{
+    max-width:450px;
+    background:rgb(100, 204, 177);
+    padding:10px;
+    margin:10px;
+}
