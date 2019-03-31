@@ -1,0 +1,14 @@
+div#btn{
+    background-color:lightsalmon;
+    display:inline-block;
+    padding:5px;
+    border-radius:3px;
+    font-size:0.6em;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div#btn:hover{
+    background-color:lightpink;
+    cursor: default;
+    transition:background-color 0.1s linear;
+}
