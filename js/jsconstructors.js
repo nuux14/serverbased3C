@@ -1,3 +1,7 @@
+import {User, abc} from './user.js'
+
+var btn=document.getElementById('btnAdd');
+btn.addEventListener('click',addUser);
 function addUser(){
     var name = document.getElementById("txtName");
     var email = document.querySelector('#txtEmail');
@@ -19,15 +23,13 @@ function addUser(){
     name.value='';
     email.value='';
 }
-// var person={fname:"Gedi",lname:"Ismail"};
-// var person2={};
-//Constructors;
 var usersCollection=[];
 
-function User(name,email){
-    this.fname=name;
-    this.userEmail=email;
-}
+// function User(name,email){
+//     this.fname=name;
+//     this.userEmail=email;
+// }
+
 
 // var u = new User("Hinda", "hinda@g.com");
 // var u2 = new User("Gedi","gedi@g.com");

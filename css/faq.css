@@ -1,0 +1,13 @@
+#faqList>li:nth-child(even){
+    background-color: #ccc;
+}
+
+#faqList>li>div{
+    background-color:#f2f2f2;
+    display:none;
+}
+
+#faqList>li{
+    cursor: pointer;
+    padding:6px;
+}

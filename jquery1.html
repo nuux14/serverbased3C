@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Selectors & Effects</title>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <h1>WELCOME TO MY SITE</h1>  
+    <div id="mydiv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa facilis nisi quam ducimus, quidem quae voluptate iusto minus vero!</div>
+    <hr>
+    <div class="myclass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit deserunt eos natus, vitae ad dolorem tempore eius omnis veritatis.</div>
+    <hr>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, optio.</div>
+    <hr>
+    <p>PARAGRAPH .... Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, temporibus!</p>
+    <hr>
+    <p class="myclass">THIS PARAGRAPH WITH A CLASS. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <hr>
+    <button id="#btnC">CHECK</button>
+
+    <script>
+//        function myfn(){
+//           // $('.myclass').hide();
+//         // jQuery Effects: hide() show() toggle() fadeIn() fadeOut()
+//         //   fadeToggle() slideUp() slideDown() slideToggle()
+//        // $('h1').toggle();
+//       // $('h1').fadeOut();
+//     //  $('h1').fadeToggle(2000);
+//    // $('h1').hide("slow")
+//    $('h1').slideToggle(2000);
+//        }
+     $('button').click(function(){
+         $('div').slideToggle();
+     });
+    </script>
+</body>
+</html>
